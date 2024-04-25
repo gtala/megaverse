@@ -1,4 +1,4 @@
-interface IBaseCreateDTO {
+export interface IBaseCreateDTO {
   row: number
   column: number
 }
@@ -14,6 +14,6 @@ export interface ISoloonsCreateDTO extends IBaseCreateDTO {
 export type IPolyanetsCreateDTO = IBaseCreateDTO
 export type IDeleteDTO = IBaseCreateDTO
 
-export type DataValue = 'POLYANET' | 'SPACE'
+export type AstralObject = 'POLYANET' | 'SPACE' | 'COMETH' | 'SOLOON'
 export type MoonColor = 'blue' | 'red' | 'purple' | 'white'
 export type CometDirection = 'up' | 'down' | 'right' | 'left'

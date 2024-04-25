@@ -1,13 +1,9 @@
-import { clear, create, map } from './01_createMegaverse'
-import { logoClear, logoCreate, logoMap } from './02_createLogo'
+import { clear, create, map } from './metaverse'
 
 const tasksMap = {
   create,
   clear,
   map,
-  logoCreate,
-  logoClear,
-  logoMap,
 }
 
 async function main(args: string[]): Promise<void> {
